@@ -50,11 +50,11 @@ void RGB::rainbowLoop() {
     delay(_delay_val);
   }
   for (int i = MAX_RGB_VALUE; i >= 0; i--) {
-    color(i,MAX_RGB_VALUE, 0);
+    color(i, MAX_RGB_VALUE, 0);
     delay(_delay_val);
   }
   for (int i = 0; i <= MAX_RGB_VALUE; i++) {
-    color(0,MAX_RGB_VALUE, i);
+    color(0, MAX_RGB_VALUE, i);
     delay(_delay_val);
   }
   for (int i = MAX_RGB_VALUE; i >= 0; i--) {
